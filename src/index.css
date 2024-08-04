@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-custom-gradient {
+      @apply bg-gradient-to-r from-cyan-150 to-teal-450;
+    }
+    
+  }
